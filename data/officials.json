@@ -1,78 +1,67 @@
 {
-  "source": "https://ph.rappler.com/elections/2025/local-race/occidental-mindoro/san-jose",
+  "source": "https://sanjoseoccimindoro.gov.ph/tourism-site-mapping-and-assessment-workshop-para-sa-mga-barangay-2-2-2-3-2-2-2-2-2-2-2-2-2/",
   "as_of": "2026-11-21",
   "term": "2025–2028",
-  "note": "Winners from Rappler's tally of the Comelec media server (100% of precincts, partial and unofficial). Names are as they appeared on the ballot. Ex-officio members (Liga ng mga Barangay president, SK Federation president, IP mandatory representative) are not yet listed.",
+  "note": "Names as published by the Municipality of San Jose for the inaugural session of the Sangguniang Bayan on June 27, 2025. Party affiliations are from the 2025 ballot (Rappler/Comelec media server).",
   "items": [
     {
-      "name": "Rey Ladaga",
+      "name": "Rey Cajayon Ladaga",
       "position": "Municipal Mayor",
       "party": "PFP",
-      "votes": 43281,
-      "needs_verification": true
+      "source": "https://sanjoseoccimindoro.gov.ph/oath-taking-ng-mga-bagong-opisyales-ng-barangay-sa-san-jose-ginanap/"
     },
     {
-      "name": "Sonny Javier",
+      "name": "Sonny V. Javier",
       "position": "Municipal Vice Mayor",
-      "party": "PFP",
-      "votes": 37963,
-      "needs_verification": true
+      "party": "PFP"
     },
     {
-      "name": "Ismael Cacayorin",
+      "name": "Jesriel A. Cacayorin",
       "position": "Sangguniang Bayan Member",
-      "party": "PFP",
-      "votes": 27503,
-      "needs_verification": true
+      "party": "PFP"
     },
     {
-      "name": "Myrna Zapanta",
+      "name": "Myrna G. Zapanta",
       "position": "Sangguniang Bayan Member",
-      "party": "LP",
-      "votes": 26324,
-      "needs_verification": true
+      "party": "LP"
     },
     {
-      "name": "Danilo Centeno",
+      "name": "Danilo A. Centeno",
       "position": "Sangguniang Bayan Member",
-      "party": "PFP",
-      "votes": 25613,
-      "needs_verification": true
+      "party": "PFP"
     },
     {
-      "name": "Robert Mangahas",
+      "name": "Robert G. Mangahas",
       "position": "Sangguniang Bayan Member",
-      "party": "PFP",
-      "votes": 25586,
-      "needs_verification": true
+      "party": "PFP"
     },
     {
-      "name": "Jun-Jun Malilay",
+      "name": "Dionisio C. Malilay, Jr.",
       "position": "Sangguniang Bayan Member",
-      "party": "LP",
-      "votes": 25350,
-      "needs_verification": true
+      "party": "LP"
     },
     {
-      "name": "Jimmy Holgado",
+      "name": "Jimmy S. Holgado",
       "position": "Sangguniang Bayan Member",
-      "party": "LP",
-      "votes": 25111,
-      "needs_verification": true
+      "party": "LP"
     },
     {
-      "name": "Matthew Gene Mendiola",
+      "name": "Matthew Gene A. Mendiola",
       "position": "Sangguniang Bayan Member",
-      "party": "LP",
-      "votes": 23522,
-      "needs_verification": true
+      "party": "LP"
     },
     {
-      "name": "Barok Balmes",
+      "name": "Ariel A. Balmes",
       "position": "Sangguniang Bayan Member",
-      "party": "PFP",
-      "votes": 23151,
-      "needs_verification": true
+      "party": "PFP"
+    },
+    {
+      "name": "Warren T. Sales",
+      "position": "Sangguniang Bayan Member (ex officio), Liga ng mga Barangay President"
+    },
+    {
+      "name": "Ralph B. Pelingon",
+      "position": "Sangguniang Bayan Member (ex officio), SK Federation President"
     }
   ]
 }

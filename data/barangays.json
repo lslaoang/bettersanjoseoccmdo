@@ -10,7 +10,12 @@
     {
       "psgc": "1705110002",
       "name": "Ansiray",
-      "population_2020": 912
+      "population_2020": 912,
+      "punong_barangay": {
+        "name": "Marlon S. Ramintas",
+        "source": "https://sanjoseoccimindoro.gov.ph/maritime-safety-culture-and-awareness-campaign-caravan-ng-marina-pinaghahandaan-na/",
+        "as_of": "2025-03-07"
+      }
     },
     {
       "psgc": "1705110003",
@@ -50,12 +55,22 @@
     {
       "psgc": "1705110010",
       "name": "Barangay 6 (Poblacion)",
-      "population_2020": 274
+      "population_2020": 274,
+      "punong_barangay": {
+        "name": "Zenaida Lazo-Manahan",
+        "source": "https://sanjoseoccimindoro.gov.ph/bocofamco-san-jose-branch-bukas-na/",
+        "as_of": "2024-09-18"
+      }
     },
     {
       "psgc": "1705110011",
       "name": "Barangay 7 (Poblacion)",
-      "population_2020": 567
+      "population_2020": 567,
+      "punong_barangay": {
+        "name": "Cirilio D. Paulino Jr.",
+        "source": "https://sanjoseoccimindoro.gov.ph/moving-up-ceremony-ng-national-child-development-center-matagumpay-na-naisagawa/",
+        "as_of": "2025-04-02"
+      }
     },
     {
       "psgc": "1705110012",
@@ -75,7 +90,12 @@
     {
       "psgc": "1705110015",
       "name": "Bubog",
-      "population_2020": 10792
+      "population_2020": 10792,
+      "punong_barangay": {
+        "name": "Don Aries L. Espiritu",
+        "source": "https://sanjoseoccimindoro.gov.ph/pdls-tumanggap-ng-livelihood-assistance-mula-sa-lgu-2-2-2-2-2-2-2-2-2-2-2-5-2-3-4-2/",
+        "as_of": "2025-08-15"
+      }
     },
     {
       "psgc": "1705110016",
@@ -85,12 +105,22 @@
     {
       "psgc": "1705110017",
       "name": "Camburay",
-      "population_2020": 1896
+      "population_2020": 1896,
+      "punong_barangay": {
+        "name": "Froilan R. Dalalo",
+        "source": "https://sanjoseoccimindoro.gov.ph/tingnan-pormal-nang-nanumpa-sa-katungkulan-si-kag-wilbert-j-poloy-bilang-bagong-miyembro-sangguniang-barangay-ng-camburay-kahalili-ng-yumaong-si-kag-reynaldo-p-poloy/",
+        "as_of": "2026-09-01"
+      }
     },
     {
       "psgc": "1705110018",
       "name": "Caminawit",
-      "population_2020": 11810
+      "population_2020": 11810,
+      "punong_barangay": {
+        "name": "Agosto Balmes",
+        "source": "https://sanjoseoccimindoro.gov.ph/tourism-site-mapping-and-assessment-workshop-para-sa-mga-barangay-2-2-2-3-2-2-2-2-2-2-2-2/",
+        "as_of": "2025-06-30"
+      }
     },
     {
       "psgc": "1705110019",
@@ -105,12 +135,22 @@
     {
       "psgc": "1705110021",
       "name": "Iling Proper",
-      "population_2020": 2217
+      "population_2020": 2217,
+      "punong_barangay": {
+        "name": "Adelardo Declito",
+        "source": "https://sanjoseoccimindoro.gov.ph/linggo-ng-kabataan-idinaos-sa-isla-ng-ilin/",
+        "as_of": "2023-12-02"
+      }
     },
     {
       "psgc": "1705110022",
       "name": "Inasakan",
-      "population_2020": 712
+      "population_2020": 712,
+      "punong_barangay": {
+        "name": "Florigen Serna",
+        "source": "https://sanjoseoccimindoro.gov.ph/6083-2/",
+        "as_of": "2024-07-05"
+      }
     },
     {
       "psgc": "1705110023",
@@ -120,47 +160,94 @@
     {
       "psgc": "1705110024",
       "name": "La Curva",
-      "population_2020": 3185
+      "population_2020": 3185,
+      "punong_barangay": {
+        "name": "Larry T. dela Fuente",
+        "source": "https://sanjoseoccimindoro.gov.ph/%f0%9d%90%81%f0%9d%90%80%f0%9d%90%86%f0%9d%90%8e%f0%9d%90%8d%f0%9d%90%86-%f0%9d%90%81%f0%9d%90%80%f0%9d%90%91%f0%9d%90%80%f0%9d%90%8d%f0%9d%90%86%f0%9d%90%80%f0%9d%90%98-%f0%9d%90%87%f0%9d%90%80/",
+        "as_of": "2026-07-22"
+      }
     },
     {
       "psgc": "1705110025",
       "name": "Labangan Iling",
-      "population_2020": 1209
+      "population_2020": 1209,
+      "punong_barangay": {
+        "name": "Eljay V. Vargas",
+        "source": "https://sanjoseoccimindoro.gov.ph/mangrove-planting-ng-lgu-san-jose-tagumpay-na-nagtapos/",
+        "as_of": "2025-05-23"
+      }
     },
     {
       "psgc": "1705110026",
       "name": "Labangan Poblacion",
-      "population_2020": 9596
+      "population_2020": 9596,
+      "punong_barangay": {
+        "name": "Edgardo P. Pablo",
+        "source": "https://sanjoseoccimindoro.gov.ph/40-libreng-birth-certificate-at-146-national-id-naipamahagi-sa-barangay-labangan-poblacion/",
+        "as_of": "2025-07-09",
+        "needs_verification": true
+      }
     },
     {
       "psgc": "1705110027",
       "name": "Mabini",
-      "population_2020": 3518
+      "population_2020": 3518,
+      "punong_barangay": {
+        "name": "Juvan R. Difuntorum",
+        "source": "https://sanjoseoccimindoro.gov.ph/mr-toda-2025/",
+        "as_of": "2025-04-27"
+      }
     },
     {
       "psgc": "1705110028",
       "name": "Magbay",
-      "population_2020": 4583
+      "population_2020": 4583,
+      "punong_barangay": {
+        "name": "Val Lumogda",
+        "source": "https://sanjoseoccimindoro.gov.ph/bagong-pumping-station-ng-primewater-san-jose-pinasinayaan/",
+        "as_of": "2024-09-10"
+      }
     },
     {
       "psgc": "1705110029",
       "name": "Mangarin",
-      "population_2020": 3647
+      "population_2020": 3647,
+      "punong_barangay": {
+        "name": "Warren T. Sales",
+        "source": "https://sanjoseoccimindoro.gov.ph/28th-regular-session/",
+        "as_of": "2026-07-14"
+      }
     },
     {
       "psgc": "1705110030",
       "name": "Mapaya",
-      "population_2020": 8665
+      "population_2020": 8665,
+      "punong_barangay": {
+        "name": "Jenie Ysit",
+        "source": "https://sanjoseoccimindoro.gov.ph/kabataan-ng-mapaya-sumabak-sa-adolescent-health-well-being-forum/",
+        "as_of": "2024-05-23",
+        "needs_verification": true
+      }
     },
     {
       "psgc": "1705110031",
       "name": "Murtha",
-      "population_2020": 6391
+      "population_2020": 6391,
+      "punong_barangay": {
+        "name": "Felix Y. Gayo",
+        "source": "https://sanjoseoccimindoro.gov.ph/%f0%9d%90%81%f0%9d%90%80%f0%9d%90%98%f0%9d%90%80%f0%9d%90%8d%f0%9d%90%88%f0%9d%90%87%f0%9d%90%80%f0%9d%90%8d-%f0%9d%90%92%f0%9d%90%84%f0%9d%90%91%f0%9d%90%81%f0%9d%90%88%f0%9d%90%92%f0%9d%90%98/",
+        "as_of": "2026-10-15"
+      }
     },
     {
       "psgc": "1705110032",
       "name": "Monte Claro",
-      "population_2020": 4589
+      "population_2020": 4589,
+      "punong_barangay": {
+        "name": "Angeles C. Bermudez Jr.",
+        "source": "https://sanjoseoccimindoro.gov.ph/%f0%9d%90%86%f0%9d%90%91%f0%9d%90%8e%f0%9d%90%94%f0%9d%90%8d%f0%9d%90%83%f0%9d%90%81%f0%9d%90%91%f0%9d%90%84%f0%9d%90%80%f0%9d%90%8a%f0%9d%90%88%f0%9d%90%8d%f0%9d%90%86-%f0%9d%90%8d%f0%9d%90%86-2/",
+        "as_of": "2026-09-24"
+      }
     },
     {
       "psgc": "1705110033",
@@ -175,12 +262,22 @@
     {
       "psgc": "1705110035",
       "name": "Pawican",
-      "population_2020": 1956
+      "population_2020": 1956,
+      "punong_barangay": {
+        "name": "Eddie E. Hermoso",
+        "source": "https://sanjoseoccimindoro.gov.ph/bayanihan-serbisyo-caravan-umarangkada-sa-sityo-pitogo-brgy-pawican/",
+        "as_of": "2024-12-13"
+      }
     },
     {
       "psgc": "1705110037",
       "name": "San Agustin",
-      "population_2020": 5019
+      "population_2020": 5019,
+      "punong_barangay": {
+        "name": "Gerry M. Peradilla",
+        "source": "https://sanjoseoccimindoro.gov.ph/pdls-tumanggap-ng-livelihood-assistance-mula-sa-lgu-2-2-2-2-2-2-2-2-2-2-2-5-2-3-2/",
+        "as_of": "2025-08-13"
+      }
     },
     {
       "psgc": "1705110038",
@@ -195,9 +292,15 @@
     {
       "psgc": "1705110040",
       "name": "Naibuan",
-      "population_2020": 3420
+      "population_2020": 3420,
+      "punong_barangay": {
+        "name": "May-at A. Losun",
+        "source": "https://sanjoseoccimindoro.gov.ph/balay-halablan-sa-naibuan-binuksan-na/",
+        "as_of": "2025-03-15"
+      }
     }
   ],
   "population_source": "https://occidentalmindoro.gov.ph/pages/municipality-of-san-jose",
-  "population_note": "2020 Census of Population and Housing (PSA), as published by the Provincial Government of Occidental Mindoro"
+  "population_note": "2020 Census of Population and Housing (PSA), as published by the Provincial Government of Occidental Mindoro",
+  "officials_note": "Punong barangay names come from the Municipality of San Jose's own news posts, each linked with its date. The barangay officials elected on October 30, 2023 stay in office until the 2028 election (RA 12326). Barangays without a name: not yet found in an official source."
 }

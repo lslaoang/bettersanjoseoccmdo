@@ -7,9 +7,10 @@
 
 ## Data
 
-- [ ] **Barangay officials (2023–2028).** The punong barangay, 7 kagawad, SK chair, secretary and treasurer for each of the 39 barangays. No reachable public list: barangaydirectory.com is down, and the LGU posts on Facebook. Ask the MIO/DILG San Jose, or the Liga ng mga Barangay.
+- [ ] **Barangay officials (2023–2028).** 20 of 39 punong barangay are done, sourced from LGU news posts. Still missing: 19 captains, plus all kagawad, SK chairs, secretaries and treasurers. Candidates still to check: Pag-asa (Hermenegildo P. Bleza) and Ipil (Ronnie B. Encarguez Jr.), both seen only in barangaydirectory.com search snippets; and PBs Edgardo G. Gamboa, Abelardo C. Sunga and Junjie Tria, whose barangays aren't stated.
 - [ ] **Officials' photos.** Official portraits are on the LGU and MIO Facebook pages. Government works have no copyright (RA 8293 §176), but the photos have to be fetched by someone logged in, or provided by the MIO.
-- [ ] **Confirm the 2025 results against the official Comelec canvass.** The current list is Rappler's unofficial 100% tally. Add the ex-officio SB members: ABC president, SK Federation president, IPMR.
+- [ ] **IPMR.** The indigenous peoples' mandatory representative on the SB isn't listed yet.
+- [ ] **Mine the official site, sanjoseoccimindoro.gov.ph.** It has the Citizen's Charter, ordinances, the 2025/2026 annual budgets, department offices, contact details, and a history for each barangay.
 
 - [ ] Local hotlines: MDRRMO, PNP, BFP, hospital, OMECO.
 - [ ] Services pages: replace the template's generic text with San Jose's Citizen's Charter.

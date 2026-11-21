@@ -20,9 +20,16 @@ export function check(name, file, today = new Date()) {
       errors.push(`${where}: as_of must be YYYY-MM-DD`);
     else if ((today - new Date(asOf)) / 864e5 > STALE_DAYS)
       warnings.push(`${where}: as_of ${asOf} is older than 6 months`);
-    for (const [k, v] of Object.entries(item))
+    for (const [k, v] of Object.entries(item)) {
       if (k.endsWith('_centavos') && !Number.isSafeInteger(v))
         errors.push(`${where}.${k}: must be an integer (centavos)`);
+      // Nested people (e.g. punong_barangay) carry their own provenance.
+      if (v && typeof v === 'object' && !Array.isArray(v) && 'name' in v) {
+        if (!v.source) errors.push(`${where}.${k}: no source`);
+        if (!ISO.test(v.as_of ?? ''))
+          errors.push(`${where}.${k}: as_of must be YYYY-MM-DD`);
+      }
+    }
   });
 
   if (name === 'barangays') {

@@ -1,4 +1,5 @@
 // Pages backed by /data/*.json. Every record renders its source and as-of date.
+import { Link } from 'react-router';
 import { Phone, TriangleAlert } from 'lucide-react';
 import Section from '../components/ui/Section';
 import { Heading } from '../components/ui/Heading';
@@ -138,17 +139,36 @@ export function Barangays() {
     psgc: string;
     name: string;
     population_2020: number;
-  }> & { population_source: string; population_note: string };
+    punong_barangay?: {
+      name: string;
+      source: string;
+      as_of: string;
+      needs_verification?: boolean;
+    };
+  }> & {
+    population_source: string;
+    population_note: string;
+    officials_note: string;
+  };
   const total = f.items.reduce((s, b) => s + b.population_2020, 0);
+  const known = f.items.filter(b => b.punong_barangay).length;
   return (
     <Page
       title={`Barangays (${f.items.length})`}
-      intro={`All barangays of San Jose with their PSGC codes and 2020 census population (total ${total.toLocaleString('en-PH')}). Barangay officials will be added once verified; the 2023–2028 officials are still serving because the 2026 barangay elections were moved to 2028.`}
+      intro={`All barangays of San Jose with their punong barangay (captain), 2020 census population (total ${total.toLocaleString('en-PH')}) and PSGC code. Captains found so far: ${known} of ${f.items.length}.`}
     >
+      <p className="text-sm text-gray-600 mb-6 max-w-2xl">
+        {f.officials_note} Know a missing name?{' '}
+        <Link to="/contribute" className="underline text-primary-700">
+          Send it with a source
+        </Link>
+        .
+      </p>
       <table className="w-full text-left">
         <thead className="text-sm text-gray-600 border-b">
           <tr>
             <th className="py-2 font-medium">Barangay</th>
+            <th className="py-2 font-medium">Punong Barangay</th>
             <th className="py-2 font-medium text-right">Population (2020)</th>
             <th className="py-2 font-medium text-right hidden sm:table-cell">
               PSGC
@@ -163,6 +183,34 @@ export function Barangays() {
             .map(b => (
               <tr key={b.psgc} className="border-b">
                 <td className="py-2">{b.name}</td>
+                <td className="py-2 pr-2">
+                  {b.punong_barangay ? (
+                    <>
+                      <a
+                        href={b.punong_barangay.source}
+                        target="_blank"
+                        rel="noreferrer"
+                        title={`Source: LGU post, ${b.punong_barangay.as_of}`}
+                        className="hover:underline"
+                      >
+                        {b.punong_barangay.name}
+                      </a>
+                      {b.punong_barangay.needs_verification && (
+                        <span
+                          className="ml-1 text-xs text-warning-900"
+                          title="Inferred from context, needs verification"
+                        >
+                          (unverified)
+                        </span>
+                      )}
+                      <span className="block text-xs text-gray-500">
+                        as of {b.punong_barangay.as_of}
+                      </span>
+                    </>
+                  ) : (
+                    <span className="text-gray-400">—</span>
+                  )}
+                </td>
                 <td className="py-2 text-right tabular-nums">
                   {b.population_2020.toLocaleString('en-PH')}
                 </td>
