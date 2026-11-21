@@ -18,6 +18,13 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/75 via-black/50 to-black/10" />
       <div className="container mx-auto px-4 py-16 md:py-28">
         <div className="max-w-xl animate-fade-in">
+          <img
+            src="/seal.webp"
+            alt=""
+            width={80}
+            height={80}
+            className="h-20 w-20 mb-4 drop-shadow-lg"
+          />
           <Text transform="uppercase">Welcome to</Text>
           <Heading>{import.meta.env.VITE_GOVERNMENT_NAME}</Heading>
           <Text>{t('hero.subtitle')}</Text>
