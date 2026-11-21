@@ -2,44 +2,202 @@
   "source": "https://psa.gov.ph/classification/psgc/barangays/1705110000",
   "as_of": "2026-11-21",
   "items": [
-    { "psgc": "1705110001", "name": "Ambulong" },
-    { "psgc": "1705110002", "name": "Ansiray" },
-    { "psgc": "1705110003", "name": "Bagong Sikat" },
-    { "psgc": "1705110004", "name": "Bangkal" },
-    { "psgc": "1705110005", "name": "Barangay 1 (Poblacion)" },
-    { "psgc": "1705110006", "name": "Barangay 2 (Poblacion)" },
-    { "psgc": "1705110007", "name": "Barangay 3 (Poblacion)" },
-    { "psgc": "1705110008", "name": "Barangay 4 (Poblacion)" },
-    { "psgc": "1705110009", "name": "Barangay 5 (Poblacion)" },
-    { "psgc": "1705110010", "name": "Barangay 6 (Poblacion)" },
-    { "psgc": "1705110011", "name": "Barangay 7 (Poblacion)" },
-    { "psgc": "1705110012", "name": "Barangay 8 (Poblacion)" },
-    { "psgc": "1705110013", "name": "Batasan" },
-    { "psgc": "1705110014", "name": "Bayotbot" },
-    { "psgc": "1705110015", "name": "Bubog" },
-    { "psgc": "1705110016", "name": "Buri" },
-    { "psgc": "1705110017", "name": "Camburay" },
-    { "psgc": "1705110018", "name": "Caminawit" },
-    { "psgc": "1705110019", "name": "Catayungan" },
-    { "psgc": "1705110020", "name": "Central" },
-    { "psgc": "1705110021", "name": "Iling Proper" },
-    { "psgc": "1705110022", "name": "Inasakan" },
-    { "psgc": "1705110023", "name": "Ipil" },
-    { "psgc": "1705110024", "name": "La Curva" },
-    { "psgc": "1705110025", "name": "Labangan Iling" },
-    { "psgc": "1705110026", "name": "Labangan Poblacion" },
-    { "psgc": "1705110027", "name": "Mabini" },
-    { "psgc": "1705110028", "name": "Magbay" },
-    { "psgc": "1705110029", "name": "Mangarin" },
-    { "psgc": "1705110030", "name": "Mapaya" },
-    { "psgc": "1705110031", "name": "Murtha" },
-    { "psgc": "1705110032", "name": "Monte Claro" },
-    { "psgc": "1705110033", "name": "Natandol" },
-    { "psgc": "1705110034", "name": "Pag-asa" },
-    { "psgc": "1705110035", "name": "Pawican" },
-    { "psgc": "1705110037", "name": "San Agustin" },
-    { "psgc": "1705110038", "name": "San Isidro" },
-    { "psgc": "1705110039", "name": "San Roque" },
-    { "psgc": "1705110040", "name": "Naibuan" }
-  ]
+    {
+      "psgc": "1705110001",
+      "name": "Ambulong",
+      "population_2020": 2435
+    },
+    {
+      "psgc": "1705110002",
+      "name": "Ansiray",
+      "population_2020": 912
+    },
+    {
+      "psgc": "1705110003",
+      "name": "Bagong Sikat",
+      "population_2020": 7724
+    },
+    {
+      "psgc": "1705110004",
+      "name": "Bangkal",
+      "population_2020": 944
+    },
+    {
+      "psgc": "1705110005",
+      "name": "Barangay 1 (Poblacion)",
+      "population_2020": 227
+    },
+    {
+      "psgc": "1705110006",
+      "name": "Barangay 2 (Poblacion)",
+      "population_2020": 381
+    },
+    {
+      "psgc": "1705110007",
+      "name": "Barangay 3 (Poblacion)",
+      "population_2020": 1249
+    },
+    {
+      "psgc": "1705110008",
+      "name": "Barangay 4 (Poblacion)",
+      "population_2020": 829
+    },
+    {
+      "psgc": "1705110009",
+      "name": "Barangay 5 (Poblacion)",
+      "population_2020": 1640
+    },
+    {
+      "psgc": "1705110010",
+      "name": "Barangay 6 (Poblacion)",
+      "population_2020": 274
+    },
+    {
+      "psgc": "1705110011",
+      "name": "Barangay 7 (Poblacion)",
+      "population_2020": 567
+    },
+    {
+      "psgc": "1705110012",
+      "name": "Barangay 8 (Poblacion)",
+      "population_2020": 394
+    },
+    {
+      "psgc": "1705110013",
+      "name": "Batasan",
+      "population_2020": 3643
+    },
+    {
+      "psgc": "1705110014",
+      "name": "Bayotbot",
+      "population_2020": 2935
+    },
+    {
+      "psgc": "1705110015",
+      "name": "Bubog",
+      "population_2020": 10792
+    },
+    {
+      "psgc": "1705110016",
+      "name": "Buri",
+      "population_2020": 647
+    },
+    {
+      "psgc": "1705110017",
+      "name": "Camburay",
+      "population_2020": 1896
+    },
+    {
+      "psgc": "1705110018",
+      "name": "Caminawit",
+      "population_2020": 11810
+    },
+    {
+      "psgc": "1705110019",
+      "name": "Catayungan",
+      "population_2020": 1110
+    },
+    {
+      "psgc": "1705110020",
+      "name": "Central",
+      "population_2020": 12178
+    },
+    {
+      "psgc": "1705110021",
+      "name": "Iling Proper",
+      "population_2020": 2217
+    },
+    {
+      "psgc": "1705110022",
+      "name": "Inasakan",
+      "population_2020": 712
+    },
+    {
+      "psgc": "1705110023",
+      "name": "Ipil",
+      "population_2020": 829
+    },
+    {
+      "psgc": "1705110024",
+      "name": "La Curva",
+      "population_2020": 3185
+    },
+    {
+      "psgc": "1705110025",
+      "name": "Labangan Iling",
+      "population_2020": 1209
+    },
+    {
+      "psgc": "1705110026",
+      "name": "Labangan Poblacion",
+      "population_2020": 9596
+    },
+    {
+      "psgc": "1705110027",
+      "name": "Mabini",
+      "population_2020": 3518
+    },
+    {
+      "psgc": "1705110028",
+      "name": "Magbay",
+      "population_2020": 4583
+    },
+    {
+      "psgc": "1705110029",
+      "name": "Mangarin",
+      "population_2020": 3647
+    },
+    {
+      "psgc": "1705110030",
+      "name": "Mapaya",
+      "population_2020": 8665
+    },
+    {
+      "psgc": "1705110031",
+      "name": "Murtha",
+      "population_2020": 6391
+    },
+    {
+      "psgc": "1705110032",
+      "name": "Monte Claro",
+      "population_2020": 4589
+    },
+    {
+      "psgc": "1705110033",
+      "name": "Natandol",
+      "population_2020": 1426
+    },
+    {
+      "psgc": "1705110034",
+      "name": "Pag-asa",
+      "population_2020": 12001
+    },
+    {
+      "psgc": "1705110035",
+      "name": "Pawican",
+      "population_2020": 1956
+    },
+    {
+      "psgc": "1705110037",
+      "name": "San Agustin",
+      "population_2020": 5019
+    },
+    {
+      "psgc": "1705110038",
+      "name": "San Isidro",
+      "population_2020": 1996
+    },
+    {
+      "psgc": "1705110039",
+      "name": "San Roque",
+      "population_2020": 15721
+    },
+    {
+      "psgc": "1705110040",
+      "name": "Naibuan",
+      "population_2020": 3420
+    }
+  ],
+  "population_source": "https://occidentalmindoro.gov.ph/pages/municipality-of-san-jose",
+  "population_note": "2020 Census of Population and Housing (PSA), as published by the Provincial Government of Occidental Mindoro"
 }

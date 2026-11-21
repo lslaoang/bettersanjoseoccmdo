@@ -1,15 +1,77 @@
 {
-  "source": "https://en.wikipedia.org/wiki/San_Jose,_Occidental_Mindoro",
+  "source": "https://ph.rappler.com/elections/2025/local-race/occidental-mindoro/san-jose",
   "as_of": "2026-11-21",
+  "term": "2025–2028",
+  "note": "Winners from Rappler's tally of the Comelec media server (100% of precincts, partial and unofficial). Names are as they appeared on the ballot. Ex-officio members (Liga ng mga Barangay president, SK Federation president, IP mandatory representative) are not yet listed.",
   "items": [
     {
       "name": "Rey Ladaga",
       "position": "Municipal Mayor",
+      "party": "PFP",
+      "votes": 43281,
       "needs_verification": true
     },
     {
-      "name": "Santiago \"Sonny\" Javier",
+      "name": "Sonny Javier",
       "position": "Municipal Vice Mayor",
+      "party": "PFP",
+      "votes": 37963,
+      "needs_verification": true
+    },
+    {
+      "name": "Ismael Cacayorin",
+      "position": "Sangguniang Bayan Member",
+      "party": "PFP",
+      "votes": 27503,
+      "needs_verification": true
+    },
+    {
+      "name": "Myrna Zapanta",
+      "position": "Sangguniang Bayan Member",
+      "party": "LP",
+      "votes": 26324,
+      "needs_verification": true
+    },
+    {
+      "name": "Danilo Centeno",
+      "position": "Sangguniang Bayan Member",
+      "party": "PFP",
+      "votes": 25613,
+      "needs_verification": true
+    },
+    {
+      "name": "Robert Mangahas",
+      "position": "Sangguniang Bayan Member",
+      "party": "PFP",
+      "votes": 25586,
+      "needs_verification": true
+    },
+    {
+      "name": "Jun-Jun Malilay",
+      "position": "Sangguniang Bayan Member",
+      "party": "LP",
+      "votes": 25350,
+      "needs_verification": true
+    },
+    {
+      "name": "Jimmy Holgado",
+      "position": "Sangguniang Bayan Member",
+      "party": "LP",
+      "votes": 25111,
+      "needs_verification": true
+    },
+    {
+      "name": "Matthew Gene Mendiola",
+      "position": "Sangguniang Bayan Member",
+      "party": "LP",
+      "votes": 23522,
+      "needs_verification": true
+    },
+    {
+      "name": "Barok Balmes",
+      "position": "Sangguniang Bayan Member",
+      "party": "PFP",
+      "votes": 23151,
       "needs_verification": true
     }
   ]

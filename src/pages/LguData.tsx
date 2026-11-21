@@ -93,46 +93,89 @@ export function Hotlines() {
   );
 }
 
+type Official = { name: string; position: string; party?: string };
+
+function OfficialCard({ o }: { o: Official }) {
+  return (
+    <li className={card}>
+      <p className="text-sm text-gray-600">{o.position}</p>
+      <p className="text-xl font-semibold">{o.name}</p>
+      {o.party && <p className="text-sm text-gray-500">{o.party}</p>}
+    </li>
+  );
+}
+
 export function Officials() {
-  const f = officials as DataFile<{ name: string; position: string }>;
+  const f = officials as DataFile<Official> & { term: string; note: string };
+  const [exec, council] = [
+    f.items.filter(o => !o.position.startsWith('Sangguniang')),
+    f.items.filter(o => o.position.startsWith('Sangguniang')),
+  ];
   return (
     <Page
       title="Municipal Officials"
-      intro="Elected officials of the Municipality of San Jose. Sangguniang Bayan members and department heads will be added once verified."
+      intro={`Elected officials of the Municipality of San Jose, term ${f.term}.`}
     >
-      <ul className="grid gap-4 sm:grid-cols-2">
-        {f.items.map(o => (
-          <li key={o.position} className={card}>
-            <p className="text-sm text-gray-600">{o.position}</p>
-            <p className="text-xl font-semibold">{o.name}</p>
-            <Source item={o} file={f} />
-          </li>
+      <ul className="grid gap-4 sm:grid-cols-2 mb-10">
+        {exec.map(o => (
+          <OfficialCard key={o.name} o={o} />
         ))}
       </ul>
+      <Heading level={3}>Sangguniang Bayan (Municipal Council)</Heading>
+      <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {council.map(o => (
+          <OfficialCard key={o.name} o={o} />
+        ))}
+      </ul>
+      <p className="text-sm text-gray-600 mt-6 max-w-2xl">{f.note}</p>
+      <Source item={f.items[0]} file={f} />
     </Page>
   );
 }
 
 export function Barangays() {
-  const f = barangays as DataFile<{ psgc: string; name: string }>;
+  const f = barangays as DataFile<{
+    psgc: string;
+    name: string;
+    population_2020: number;
+  }> & { population_source: string; population_note: string };
+  const total = f.items.reduce((s, b) => s + b.population_2020, 0);
   return (
     <Page
       title={`Barangays (${f.items.length})`}
-      intro="All barangays of San Jose with their official PSGC codes."
+      intro={`All barangays of San Jose with their PSGC codes and 2020 census population (total ${total.toLocaleString('en-PH')}). Barangay officials will be added once verified; the 2023–2028 officials are still serving because the 2026 barangay elections were moved to 2028.`}
     >
-      <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-        {[...f.items]
-          .sort((a, b) => a.name.localeCompare(b.name, 'en', { numeric: true }))
-          .map(b => (
-            <li key={b.psgc} className="flex justify-between border-b py-2">
-              <span>{b.name}</span>
-              <span className="text-gray-500 text-sm tabular-nums">
-                {b.psgc}
-              </span>
-            </li>
-          ))}
-      </ul>
+      <table className="w-full text-left">
+        <thead className="text-sm text-gray-600 border-b">
+          <tr>
+            <th className="py-2 font-medium">Barangay</th>
+            <th className="py-2 font-medium text-right">Population (2020)</th>
+            <th className="py-2 font-medium text-right hidden sm:table-cell">
+              PSGC
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {[...f.items]
+            .sort((a, b) =>
+              a.name.localeCompare(b.name, 'en', { numeric: true })
+            )
+            .map(b => (
+              <tr key={b.psgc} className="border-b">
+                <td className="py-2">{b.name}</td>
+                <td className="py-2 text-right tabular-nums">
+                  {b.population_2020.toLocaleString('en-PH')}
+                </td>
+                <td className="py-2 text-right tabular-nums text-gray-500 text-sm hidden sm:table-cell">
+                  {b.psgc}
+                </td>
+              </tr>
+            ))}
+        </tbody>
+      </table>
       <Source item={{}} file={f} />
+      <Source item={{ source: f.population_source, as_of: f.as_of }} file={f} />
+      <p className="text-xs text-gray-600">{f.population_note}</p>
     </Page>
   );
 }
