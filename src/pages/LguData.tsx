@@ -182,7 +182,14 @@ export function Barangays() {
             )
             .map(b => (
               <tr key={b.psgc} className="border-b">
-                <td className="py-2">{b.name}</td>
+                <td className="py-2">
+                  <Link
+                    to={`/barangays/${b.psgc}`}
+                    className="font-medium text-primary-700 hover:underline"
+                  >
+                    {b.name}
+                  </Link>
+                </td>
                 <td className="py-2 pr-2">
                   {b.punong_barangay ? (
                     <>

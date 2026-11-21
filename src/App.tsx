@@ -9,6 +9,7 @@ import Document from './pages/Document';
 import Government from './pages/Government';
 import Search from './pages/Search';
 import Contribute from './pages/Contribute';
+import BarangayDetail from './pages/BarangayDetail';
 import {
   Hotlines,
   Officials,
@@ -44,6 +45,7 @@ function App() {
               <Route path="/hotlines" element={<Hotlines />} />
               <Route path="/officials" element={<Officials />} />
               <Route path="/barangays" element={<Barangays />} />
+              <Route path="/barangays/:psgc" element={<BarangayDetail />} />
               <Route path="/budget" element={<Budget />} />
               <Route path="/visit" element={<Attractions />} />
               <Route path="/contribute" element={<Contribute />} />
