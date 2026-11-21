@@ -9,6 +9,7 @@ import hotlines from '../../data/hotlines.json';
 import officials from '../../data/officials.json';
 import barangays from '../../data/barangays.json';
 import budget from '../../data/budget.json';
+import attractions from '../../data/attractions.json';
 
 type Prov = { source?: string; as_of?: string; needs_verification?: boolean };
 type DataFile<T> = { source: string; as_of: string; items: (T & Prov)[] };
@@ -130,6 +131,84 @@ export function Barangays() {
               </span>
             </li>
           ))}
+      </ul>
+      <Source item={{}} file={f} />
+    </Page>
+  );
+}
+
+type Photo = {
+  src: string;
+  width: number;
+  height: number;
+  author: string;
+  license: string;
+  license_url: string;
+  page: string;
+};
+
+export function PhotoCredit({ photo }: { photo: Photo }) {
+  return (
+    <p className="text-[11px] text-gray-500 mt-1">
+      Photo:{' '}
+      <a
+        href={photo.page}
+        className="underline"
+        target="_blank"
+        rel="noreferrer"
+      >
+        {photo.author}
+      </a>
+      ,{' '}
+      {photo.license_url ? (
+        <a
+          href={photo.license_url}
+          className="underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {photo.license}
+        </a>
+      ) : (
+        photo.license
+      )}
+    </p>
+  );
+}
+
+export function Attractions() {
+  const f = attractions as DataFile<{
+    slug: string;
+    name: string;
+    kind: string;
+    description: string;
+    photo: Photo;
+  }>;
+  return (
+    <Page
+      title="Places to visit"
+      intro="Islands, heritage sites and landmarks around San Jose. Photos are from Wikimedia Commons, credited under each one."
+    >
+      <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        {f.items.map(a => (
+          <li key={a.slug} id={a.slug}>
+            <img
+              src={a.photo.src}
+              width={a.photo.width}
+              height={a.photo.height}
+              alt={a.name}
+              loading="lazy"
+              decoding="async"
+              className="w-full aspect-[4/3] object-cover rounded-lg bg-gray-100"
+            />
+            <PhotoCredit photo={a.photo} />
+            <p className="text-xs font-medium uppercase tracking-wide text-primary-700 mt-3">
+              {a.kind}
+            </p>
+            <h2 className="text-lg font-semibold text-gray-900">{a.name}</h2>
+            <p className="text-gray-700 mt-1">{a.description}</p>
+          </li>
+        ))}
       </ul>
       <Source item={{}} file={f} />
     </Page>

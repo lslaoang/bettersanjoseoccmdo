@@ -35,6 +35,15 @@ The rules the build enforces:
 
 Spotted wrong data? Open an issue with the correct value and a source.
 
+## Hosting
+
+The site is a static build on AWS. It's served from a private S3 bucket through CloudFront, using Origin Access Control.
+
+- **Live URL:** https://djy3esom4bpw1.cloudfront.net (no custom domain yet)
+- **Deploy:** `AWS_PROFILE=<profile> ./deploy.sh`. It builds, syncs to S3 and invalidates CloudFront.
+- **SPA routing:** CloudFront serves `/index.html` with a 200 for any 403 or 404 from S3, so `/budget` and other client routes load directly.
+- **Caching:** hashed `assets/` files are cached for a year. Everything else is `no-cache`.
+
 ## Docs
 
 - [docs/DESIGN.md](docs/DESIGN.md): system design, data model, roadmap

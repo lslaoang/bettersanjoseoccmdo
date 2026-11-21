@@ -1,0 +1,118 @@
+{
+  "source": "",
+  "as_of": "2026-11-21",
+  "items": [
+    {
+      "slug": "ilin-island",
+      "name": "Ilin Island",
+      "kind": "Island",
+      "description": "The large island just off San Jose's coast, a short boat ride from the mainland. Barangays Natandol and Catayungan are on the island.",
+      "source": "https://commons.wikimedia.org/wiki/File:Natandol,_Ilin_Island,_San_Jose,_Occidental_Mindoro_-_panoramio.jpg",
+      "photo": {
+        "src": "/photos/ilin-island.webp",
+        "width": 800,
+        "height": 534,
+        "author": "Allan Siquioco",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Natandol,_Ilin_Island,_San_Jose,_Occidental_Mindoro_-_panoramio.jpg"
+      }
+    },
+    {
+      "slug": "cathedral",
+      "name": "St. Joseph the Worker Cathedral",
+      "kind": "Church",
+      "description": "The cathedral of the Apostolic Vicariate of San Jose in Mindoro, in the town center. Saint Joseph is the town's namesake and patron.",
+      "source": "https://commons.wikimedia.org/wiki/File:St._Joseph_Cathedral,_San_Jose,_Occ_Mindoro.jpg",
+      "photo": {
+        "src": "/photos/cathedral.webp",
+        "width": 800,
+        "height": 1200,
+        "author": "Zuanzuanfuwa",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:St._Joseph_Cathedral,_San_Jose,_Occ_Mindoro.jpg"
+      }
+    },
+    {
+      "slug": "mangarin-ruins",
+      "name": "Mangarin fortification ruins",
+      "kind": "Heritage",
+      "description": "Stone ruins of old fortifications in Barangay Mangarin. Similar ruins also stand in nearby Mapaya.",
+      "source": "https://commons.wikimedia.org/wiki/File:Ruins_of_Old_Fortifications_in_Mangarin,_San_Jose,_Occidental_Mindoro.jpg",
+      "photo": {
+        "src": "/photos/mangarin-ruins.webp",
+        "width": 800,
+        "height": 532,
+        "author": "Joelaldor",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ruins_of_Old_Fortifications_in_Mangarin,_San_Jose,_Occidental_Mindoro.jpg"
+      }
+    },
+    {
+      "slug": "ww2-monument",
+      "name": "World War II monument",
+      "kind": "Heritage",
+      "description": "A small World War II monument at the municipal park. In December 1944, during the Battle of Mindoro, US forces landed near San Jose and built airfields here to support the liberation of Luzon.",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Jose_Occ_Mindoro_WW2_monument.jpg",
+      "photo": {
+        "src": "/photos/ww2-monument.webp",
+        "width": 800,
+        "height": 1200,
+        "author": "Zuanzuanfuwa",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:San_Jose_Occ_Mindoro_WW2_monument.jpg"
+      }
+    },
+    {
+      "slug": "plaza-arch",
+      "name": "Municipal Plaza, Welcome Arch and Clock Tower",
+      "kind": "Landmark",
+      "description": "The town plaza beside the municipal hall, entered through the Welcome Arch and Clock Tower.",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Jose_Municipal_Plaza_Welcome_Arch.jpg",
+      "photo": {
+        "src": "/photos/plaza-arch.webp",
+        "width": 800,
+        "height": 600,
+        "author": "Haley.Parrot",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:San_Jose_Municipal_Plaza_Welcome_Arch.jpg"
+      }
+    },
+    {
+      "slug": "pandurucan-bridge",
+      "name": "Pandurucan Bridge",
+      "kind": "Landmark",
+      "description": "The bridge over the Pandurucan River, lit with colorful LED lights at night.",
+      "source": "https://commons.wikimedia.org/wiki/File:Pandurucan_Bridge_night.jpg",
+      "photo": {
+        "src": "/photos/pandurucan-bridge.webp",
+        "width": 800,
+        "height": 1024,
+        "author": "Haley.Parrot",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Pandurucan_Bridge_night.jpg"
+      }
+    },
+    {
+      "slug": "devils-mountain",
+      "name": "Devil's Mountain and the rice fields",
+      "kind": "Nature",
+      "description": "The peak that rises behind San Jose's rice fields. Rice is one of the town's main exports, along with salt and processed bangus.",
+      "source": "https://commons.wikimedia.org/wiki/File:Devils_Mountain,_San_Jose,_Mindoro.jpg",
+      "photo": {
+        "src": "/photos/devils-mountain.webp",
+        "width": 800,
+        "height": 450,
+        "author": "FroyAgta",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Devils_Mountain,_San_Jose,_Mindoro.jpg"
+      }
+    }
+  ]
+}

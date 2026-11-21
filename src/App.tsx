@@ -8,7 +8,13 @@ import Services from './pages/Services';
 import Document from './pages/Document';
 import Government from './pages/Government';
 import Search from './pages/Search';
-import { Hotlines, Officials, Barangays, Budget } from './pages/LguData';
+import {
+  Hotlines,
+  Officials,
+  Barangays,
+  Budget,
+  Attractions,
+} from './pages/LguData';
 import { isMeilisearchEnabled } from './lib/meilisearch';
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
 
@@ -38,6 +44,7 @@ function App() {
               <Route path="/officials" element={<Officials />} />
               <Route path="/barangays" element={<Barangays />} />
               <Route path="/budget" element={<Budget />} />
+              <Route path="/visit" element={<Attractions />} />
               {isMeilisearchEnabled && (
                 <Route path="/search" element={<Search />} />
               )}
