@@ -35,6 +35,15 @@ The rules the build enforces:
 
 Spotted wrong data? Open an issue with the correct value and a source.
 
+## Crowdsourced submissions
+
+`/contribute` lets anyone send information about San Jose or a barangay, with up to 5 photos or PDFs. Nothing is published automatically.
+
+- **Backend:** [`api/submit.py`](api/submit.py) is a Lambda behind API Gateway, reached through CloudFront at `/api/*`. Submissions go to DynamoDB `bettersanjose-submissions`. Files upload straight to the private S3 bucket `bettersanjose-submissions-<account>` through presigned POST forms, which cap them at 10 MB and allow only images and PDFs. A honeypot field and a 5-per-hour limit per visitor IP stop spam. Only a hash of the IP is stored.
+- **Setup or update:** `AWS_PROFILE=<profile> ./api/infra.sh`. It's safe to re-run.
+- **Review:** `scripts/review.py list`, then `show <id>` (downloads the files to `submissions/`, which is gitignored), then `approve` or `reject`. To publish, edit `data/*.json`, use the submission id as the source, and deploy.
+- **Privacy promise:** run `scripts/review.py purge --yes` now and then. It deletes unpublished submissions older than 12 months.
+
 ## Hosting
 
 The site is a static build on AWS. It's served from a private S3 bucket through CloudFront, using Origin Access Control.

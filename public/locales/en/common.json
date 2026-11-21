@@ -38,7 +38,9 @@
     "holidays": "Holidays",
     "officials": "Officials",
     "barangays": "Barangays",
-    "budget": "Budget"
+    "budget": "Budget",
+    "visit": "Visit",
+    "contribute": "Contribute"
   },
   "joinUs": {
     "stripTitle": "🚀 Join the #CivicTech Revolution",

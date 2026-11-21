@@ -18,6 +18,9 @@
 
 ## Tech
 
+- [ ] Review `/contribute` submissions regularly: `scripts/review.py list`. Run `purge --yes` monthly.
+- [ ] Optional: notify on new submissions (an email via SES, or the BetterGov Discord webhook once the mods issue one).
+
 - [ ] Cut the first-load bundle (about 345 KB gzip). Replace `import * as LucideIcons` with named imports.
 - [ ] Point the footer "Community Discord" link at https://discord.gg/bettergovph.
 - [ ] Custom domain: Route 53 zone, ACM certificate (us-east-1), CloudFront alias. Then flip the directory row to 🟢 Active.

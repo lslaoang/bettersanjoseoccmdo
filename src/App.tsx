@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import Document from './pages/Document';
 import Government from './pages/Government';
 import Search from './pages/Search';
+import Contribute from './pages/Contribute';
 import {
   Hotlines,
   Officials,
@@ -45,6 +46,7 @@ function App() {
               <Route path="/barangays" element={<Barangays />} />
               <Route path="/budget" element={<Budget />} />
               <Route path="/visit" element={<Attractions />} />
+              <Route path="/contribute" element={<Contribute />} />
               {isMeilisearchEnabled && (
                 <Route path="/search" element={<Search />} />
               )}
