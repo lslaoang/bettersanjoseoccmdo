@@ -1,0 +1,24 @@
+{
+  "source": "",
+  "as_of": "2026-11-21",
+  "items": [
+    {
+      "agency": "Emergency 911 (police, fire, medical)",
+      "numbers": ["911"],
+      "category": "emergency",
+      "source": "Executive Order No. 56, s. 2018"
+    },
+    {
+      "agency": "Philippine Red Cross",
+      "numbers": ["143"],
+      "category": "emergency",
+      "source": "https://redcross.org.ph/"
+    },
+    {
+      "agency": "8888 Citizens' Complaint Hotline",
+      "numbers": ["8888"],
+      "category": "national",
+      "source": "Executive Order No. 6, s. 2016"
+    }
+  ]
+}
